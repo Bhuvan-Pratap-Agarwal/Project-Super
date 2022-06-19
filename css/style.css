@@ -1,0 +1,302 @@
+body
+{
+    background-color: rgb(197, 230, 255);
+    margin: 0%;
+    position: relative;
+    overflow: hidden;
+}
+
+h1
+{
+    margin: 0;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+hr
+{
+    border-style: dotted;    
+}
+
+p
+{
+    margin: 10px 0 10px 0;
+    text-align: left;
+    padding-left:25px ;
+    font-family: Open Sans, sans-serif;
+}
+
+
+
+
+
+/* Background Picture Section */
+#backGroundPic
+{
+    width: 120%;
+    position: fixed;
+
+}
+
+.clg-img
+{
+    width: 100%;
+}
+/* Background Picture Section Ends Here */
+
+
+
+
+
+.black-color /* Adds a transparent black layer on the bg pic */
+{
+    width: 100%;
+    height: 1000px;
+    background-color: rgba(0, 0, 0, 0.503);
+    position: absolute;
+}
+
+
+
+
+
+/* Top Logo Bar Section Starts Here */
+.Top-Logo-Bar
+{
+    margin: 0%;
+    width: 100%;
+    position: absolute;    
+}
+
+#snist_logo
+{
+    width: 30%;
+    margin-left: 0px;
+    margin-bottom: 0;
+}
+
+#recognition
+{
+    padding: 0 2rem 0 1rem;
+    background-color: #ffffff;
+    width: auto;
+    margin-left: 48.2%;
+    border: none;
+    border-radius: 0 0 0 50px;
+}
+/* Top Logo Bar Section Ends Here */
+
+
+
+
+
+/* Login form sections starts here */
+#login-section
+{
+    /* background-color: rgba(181, 181, 181, 0.671); */
+    width: 400px;
+    height: 450px;
+    position: absolute;
+    left: 39%;
+    margin-top: 15%;
+    border-radius: 25px;
+    text-align: center;
+    /* box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.599); */
+}
+
+/* #login-h1
+{
+    color: rgb(255, 255, 255);
+} */
+
+input[type=text], select 
+{
+    background-color: rgba(0, 0, 0, 0.337);
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1.5px solid rgb(204, 204, 204);
+    border-radius: 2rem;
+    box-sizing: border-box;
+
+}
+
+
+input[type=password], select 
+{
+    background-color: rgba(0, 0, 0, 0.337);
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1.5px solid #ccc;
+    border-radius: 2rem;
+    box-sizing: border-box;
+}
+
+input[type=submit], select 
+{
+    width: 90%;
+    margin-top: 6%;
+    background-color: #79DAE8;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 50px;
+}
+
+input[type=submit]:hover
+{
+    background-color: #0AA1DD;
+    color: white;
+}
+
+.forgot-password
+{
+    font-family: Open Sans, sans-serif;
+    display: inline-block;
+    position: absolute;
+    bottom: 43%;
+    left: 37%;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+
+.forgot-password:hover
+{
+    text-decoration: underline;
+}
+
+.placeicon
+{
+    font-family: Open Sans, sans-serif;
+    color: white;
+}
+/* Login form sections ends here */
+
+
+
+
+.contactUS-div
+{
+    margin: 0;
+
+    /* position: relative; */
+}
+
+.contactUs
+{
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: underline;
+    margin-top: 70px;
+}
+
+.Phone
+{
+    margin: 0;
+    position: absolute;
+    /* left: 10%; */
+}
+
+.phone-icon
+{
+    width: 7%;
+}
+.phNumber
+{
+    color: white;
+    /* position: absolute; */
+    margin: 0;
+    left: 7%;
+    font-size: 1.3rem;
+}
+
+.Email
+{
+    margin: 0;
+    position: absolute;
+    left: 0;
+    bottom: 10%;
+}
+
+.email-icon
+{
+    width: 7%;
+}
+
+.snist-email
+{
+    color: white;
+    /* position: absolute; */
+    margin: 0;
+    left: 7%;
+    font-size: 1.3rem;
+}
+
+
+
+
+
+/* 
+.phone
+{
+    position: relative;
+}
+
+.phone-icon
+{
+    /* margin: 10px 0 0 0;
+    display: inline-block;
+    left: 5%; 
+    width: 5%;
+    position: absolute;
+    left: 5%;
+    padding-top: 1%;
+}
+
+.phNumber
+{
+    color: white;
+    position: absolute;
+    margin: 0;
+    left: 7%;
+    font-size: 1.3rem;
+}
+
+.Email
+{
+    position: absolute;
+    margin: 0;
+    bottom: 15%;
+    left: 1%;
+}
+
+.email-icon
+{
+    margin: 0 0 0 0;
+    display: inline-block;
+    position: absolute;
+    left: 5%;
+    width: 5%;
+    width: 5%;
+    position: absolute;
+    left: 5%;
+    padding-top: 1%;
+}
+
+.snist-email
+{
+    color: white;
+    position: absolute;
+    margin: 0;
+    left: 1%;
+    font-size: 1.3rem;
+} */
